@@ -11,7 +11,7 @@ $checkOutTime = getCheckOutTime($userid, $todaydate, $db);
 ?>
 <link href="<?php echo CSS; ?>/import.css" rel="stylesheet" type="text/css"/>
 <script src="<?php echo JS; ?>/jquery.min.js"></script>
-<div id='top_banner'>	
+<div id='top_banner' class="noprint">	
 	<div class="logoutCtn">
 		<a href="controller/ctrl.login.php?cmd=logout">Logout</a>
 	</div>

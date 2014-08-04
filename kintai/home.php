@@ -42,7 +42,7 @@ $getCurrentMonth = getCurrentMonth($todaydate, $userid, $db);
         {
 		width:800px;
         height:200px;
-		background-color:red;
+	
 	}
 </style>
 
@@ -65,10 +65,10 @@ $getCurrentMonth = getCurrentMonth($todaydate, $userid, $db);
 			<div class="dat_content">
 				<div class="container">
 					<div class="search_bar">
-						<ul class="dasu">
+						<ul class="dasu noprint">
 							<li>
-							<div class="print noprint"><a href="javascript:window.print();" class="coupon-print-link">Print this Coupon</a></div>
-								<a class="button" href="" onclick="PrintDiv();">印刷</a>
+						<!--	<div class="print noprint"><a href="javascript:window.print();" class="coupon-print-link">Print this Coupon</a></div>-->
+								<a class="button noprint" href="javascript:window.print();" onclick="PrintDiv();">印刷</a>
 							
 							</li>
 							<li>
@@ -76,8 +76,8 @@ $getCurrentMonth = getCurrentMonth($todaydate, $userid, $db);
 							</li>
 						</ul>
 					</div>
-					<div class="info">
-						<table>
+					<div class="info noprint">
+						<table class="noprint">
 							<tr>
 								<td><span class="if"><?php echo $late; ?></span><span class="it">遅刻</span></td>
 								<td><span class="if"><?php echo $earlyleave; ?></span><span class="it">早退</span></td>

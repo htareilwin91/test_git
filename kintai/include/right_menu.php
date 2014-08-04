@@ -1,4 +1,4 @@
-<div id="right_menu">
+<div id="right_menu" class="noprint">
 	<div class="tblStatusCtn">
 		<table>
 			<tr>

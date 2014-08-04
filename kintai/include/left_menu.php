@@ -1,4 +1,4 @@
-<div id="left_menu">
+<div id="left_menu" class="noprint">
 	<div class="logoCtn">
 		<img src='<?php echo IMG; ?>/NEW-rubbsoul.png' width="100%" height="auto">
 		<span>勤怠システム</span>
