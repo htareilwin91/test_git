@@ -68,7 +68,7 @@ $getCurrentMonth = getCurrentMonth($todaydate, $userid, $db);
 						<ul class="dasu noprint">
 							<li>
 						
-								<a class="button noprint" href="javascript:window.print();" onclick="PrintDiv();">印刷</a>
+								<a class="button noprint" href="javascript:window.print();">印刷</a>
 							
 							</li>
 							<li>
