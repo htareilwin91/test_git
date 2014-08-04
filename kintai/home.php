@@ -67,7 +67,7 @@ $getCurrentMonth = getCurrentMonth($todaydate, $userid, $db);
 					<div class="search_bar">
 						<ul class="dasu noprint">
 							<li>
-						<!--	<div class="print noprint"><a href="javascript:window.print();" class="coupon-print-link">Print this Coupon</a></div>-->
+						
 								<a class="button noprint" href="javascript:window.print();" onclick="PrintDiv();">印刷</a>
 							
 							</li>
