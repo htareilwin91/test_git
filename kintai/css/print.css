@@ -1,0 +1,36 @@
+div.tblCalendarCtn td{
+padding: 5px 10px;
+font-size: 90%;
+border-bottom: 1px dotted #514F4F;
+
+}
+
+div.tblCalendarCtn th{
+padding:10px;
+font-size: 90%;
+border-top: 1px solid #514F4F;
+border-bottom: 1px solid #514F4F;
+background-color: #514F4F;color:#E1E1E1;
+}
+
+@media print {
+  * { display: none; }/* Hide everything ... */
+  #divToPrint { display: block; }/* ... except the required div */
+     .tbl_str td{
+background-color:red;
+}
+		 div.tblCalendarCtn td{
+		padding: 5px 10px;
+		font-size: 90%;
+		border-bottom: 1px dotted #514F4F;
+		}
+		div.tblCalendarCtn th{
+		padding:10px;
+		font-size: 90%;
+		border-top: 1px solid #514F4F;
+		border-bottom: 1px solid #514F4F;
+		background-color: #514F4F;color:#E1E1E1;
+		}
+}
+
+
